@@ -1,0 +1,60 @@
+.header {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100;
+  }
+
+  #time {
+      text-align: right;
+  }
+
+  .btn {
+    border: none;
+    background-color: hsl(360, 91%, 36%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+      0px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .hide {
+      display: none;
+  }
+
+  .btn1 {
+    margin-right: 50%;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  .endGameBtn {
+    margin-right: 10px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  @media (min-width: 540px) {
+    .container {
+      width: 90%;
+    }
+  }
+  @media (min-width: 720px) {
+    .container {
+      width: 70%;
+    }
+  }
+  @media (min-width: 960px) {
+    .container {
+      width: 40%;
+    }
+  }

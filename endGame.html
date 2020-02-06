@@ -11,52 +11,33 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-    <title>Code Quiz</title>
+    <title>QuizGame | Julie Berryhill</title>
 </head>
 
 <body>
     <div class="header">
         <div class="row">
-            <div class="col-9">
-                <div id="highscores">
-                    <p>Highscores</p>
-                </div>
-
-            </div>
-            <div class="col-3">
-                <div class=""></div>
-                <div id="countdown">
-                    <p>Time: <span id="time">0</span></p>
-                </div>
-
+            <div class="col-6">
             </div>
         </div>
     </div>
     <div class="container">
-        <div id="startContainer" class="row">
+        <div class="row">
             <div class="col">
-                <h1>CodeQuiz: Answer the questions as fast as you can. You have one minute.</h1>
-
-                <h2>Click to start quiz!</h2>
-
-                <button id="start" class="btn">Start</button>
-            </div>
-        </div>
-        <!-- <!== Question container ==> -->
-        <div id="questionContainer" class="row hide">
-            <div class="col">
-                <h1 id="questionText">placeholder</h1>
-                <button id="q0" class="btn1">placeholder</button>
-                <button id="q1" class="btn1">placeholder</button>
-                <button id="q2" class="btn1">placeholder</button>
-                <button id="q3" class="btn1">placeholder</button>
+                <h1>High Score!</h1>
+                <div id="highScores">
+                </div>
+                <button id=goBack class="endGameBtn">Go Back</button><button id=clearHighScore class="endGameBtn">Clear
+                    High Scores</button>
             </div>
         </div>
     </div>
-    
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/script.js"></script>
+
+
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/endGame.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
