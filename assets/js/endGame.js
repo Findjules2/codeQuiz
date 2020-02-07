@@ -27,3 +27,7 @@ document.getElementById("goBack").addEventListener("click", function(){
 document.getElementById("clearHighScore").addEventListener("click", function(){
     localStorage.clear();
   });
+
+  document.getElementById("highScores").addEventListener("click", function(){
+    localStorage.highScores();
+  });
